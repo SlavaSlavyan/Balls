@@ -1,10 +1,12 @@
 from turtle import *
 
+# Класс рисования
 class Draw:
     
     def __init__(self,m):
         pass
     
+    # рисование шара
     def ball(self,m,b):
         
         teleport(b.x,b.y-b.rad)
